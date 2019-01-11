@@ -120,26 +120,55 @@ p {
     align-items: center;
     justify-content: center;
 }
-.middle-content .cards .card2{
+.middle-content1 .cards{
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    width: 50%;
-    margin: 0px 2.5%;
-    align-items: baseline ;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
-.middle-content .cards .card3{
-    display: flex;
-    flex-wrap: wrap;
-    /* justify-content: space-evenly; */
-    width: 50%;
-    margin: 20px 2.5%;
+ 
+.middle-content1 .cards .card{
+    padding 20px;
+    width: 400px;
+    margin: 20px 0;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+.middle-content1 .cards .card.a{
+    display: inline-block;
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.middle-content1 .cards .card.b{
+    display: inline-block;
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.middle-content1 .cards .card.c{
+    display: inline-block;
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.middle-content1 .cards .card.d{
+    display: inline-block;
+    width: 380px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.middle-content1 .card button {
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 .middle-content .boxes .box.a{
     background-color:teal;
 
@@ -232,6 +261,10 @@ header nav a {
     color: black;
     padding : 35px;
     margin-left: 1px;
+}
+.foot{
+    margin: 30px;
+
 }
 
 
