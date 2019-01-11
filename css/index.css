@@ -109,11 +109,6 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.middle-content .cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; */
-}
 
 .middle-content .boxes .box{
     width: 12.5%;
@@ -126,10 +121,21 @@ p {
     justify-content: center;
 }
 .middle-content .cards .card2{
-    width: 20%;
-    height: 50px;
-    margin: 20px;
-    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 50%;
+    margin: 0px 2.5%;
+    align-items: baseline ;
+    justify-content: flex-start;
+}
+.middle-content .cards .card3{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    width: 50%;
+    margin: 20px 2.5%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
