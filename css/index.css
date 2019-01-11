@@ -70,6 +70,10 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container.about-page {
+    width: 800px;
+    margin: 0 auto;
+}
 
 .top-content {
     display: flex;
@@ -81,6 +85,11 @@ p {
 
 .top-content .text-container {
     width: 48%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+.top-content .text-container1 {
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -100,8 +109,13 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+.middle-content .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+}
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +124,55 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .cards .card2{
+    width: 20%;
+    height: 50px;
+    margin: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box.a{
+    background-color:teal;
+
+}
+.middle-content .boxes .box.b{
+    background-color:gold;
+
+}
+.middle-content .boxes .box.c{
+    background-color:cadetblue;
+
+}
+.middle-content .boxes .box.d{
+    background-color:coral;
+
+}
+.middle-content .boxes .box.e{
+    background-color:crimson;
+
+}
+.middle-content .boxes .box.f{
+    background-color:forestgreen;
+
+}
+.middle-content .boxes .box.g{
+    background-color:darkorchid;
+
+}
+.middle-content .boxes .box.h{
+    background-color:hotpink;
+
+}
+.middle-content .boxes .box.i{
+    background-color:indigo;
+
+}
+.middle-content .boxes .box.j{
+    background-color:dodgerblue;
+
 }
 
 .bottom-content {
@@ -144,3 +207,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+header {
+    display: inline-block;
+    margin: 10px;
+}
+
+header nav {
+    margin-top: 40px; 
+    width: 610px;
+    justify-content: space-around;
+    display: inline-block;
+}
+header .logo2 {
+    margin: 28px 0 0 0px;
+}
+header nav a {
+    text-decoration: none;
+    color: black;
+    padding : 35px;
+    margin-left: 1px;
+}
+
+
